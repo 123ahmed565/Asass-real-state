@@ -54,7 +54,7 @@ a:hover {
     background-color: var(--colorText);
     color: rgb(20, 19, 19);
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     white-space: nowrap;
     box-shadow: none !important;
     text-transform: uppercase;
@@ -66,7 +66,7 @@ a:hover {
     background-color: black !important;
     color: white;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 5px 10px;
     transition: .5s all ease-out;
 }
 /* end global features */
@@ -99,6 +99,10 @@ a:hover {
     font-style: italic;
 }
 
+.image-logo-nav{
+    margin-right: 5px;
+}
+
 .text-img-2{
     color: var(--colorText);
     font-weight: bold;
@@ -108,14 +112,14 @@ a:hover {
 }
 
 .Description{
-    margin-top: 120px;
+    margin-top: 90px;
 }
 
 .circle-logo img{
     position: absolute;
     width: 200px;
     height: 190px;
-    top: -60%;
+    top: -52%;
     left: 40%;
     background-color: white;
     border-radius: 50%;
@@ -147,9 +151,20 @@ a:hover {
     font-size: 20px;
 }
 
+.location{
+    text-decoration: underline;
+    background-color: var(--colorText);
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
 .social-icons{
     position: absolute;
-    bottom: 0%;
+    bottom: 3%;
     left: 0%;
     background-color: var(--colorText);
     padding-right: 15px;
